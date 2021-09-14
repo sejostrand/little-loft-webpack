@@ -42,9 +42,12 @@ export default function Home() {
           name='description'
           content="High-quality toys at a fraction of the price, and you'll be helping to save our planet Earth by reducing landfill."
         />
-        <link rel='icon' href='../public/wood_blocks_icon.svg' />
+        <link rel='icon' href='/assets/media/favicon.svg' />
       </head>
-      <img className={styles.logo__img} src='/media/little_loft_logo.svg'></img>
+      <img
+        className={styles.logo__img}
+        src='./assets/media/little_loft_logo.svg'
+      ></img>
       <main className={styles.home__main}>
         <HeadSection content={content.headSection} />
         <Section content={content.section1} />
