@@ -6,13 +6,14 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server",
+    "postinstall": "webpack -p",
+    "start": "node server.js",
     "build": "webpack"
   },
   "author": "Sebastian Strand",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.5",
-    "@babel/plugin-transform-arrow-functions": "^7.14.5",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
@@ -21,11 +22,13 @@
     "sass": "^1.39.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
     "webpack": "^5.52.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^4.2.0"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

@@ -3,21 +3,21 @@ export const content = {
     heading: 'Find new joy in second-hand toys',
     paragraph:
       "High-quality items at a fraction of the price, and you'll be helping to save our planet Earth by reducing landfill.",
-    heroUrl: '/media/hero.png',
+    heroUrl: '../public/hero.png',
   },
   section1: {
     heading: 'Share together',
     subHeading: 'Sign up to our community of like-minded parents',
     paragraph:
       'Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi contentiones per.',
-    screenContentUrl: '/media/iphone1.jpg',
+    screenContentUrl: '../public/iphone1.jpg',
   },
   section2: {
     heading: 'Hidden treasures',
     subHeading: 'Find your little one’s next favourite toy, teddy, or swing',
     paragraph:
       'Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi contentiones per.',
-    screenContentUrl: '/media/iphone2.jpg',
+    screenContentUrl: '../public/iphone2.jpg',
   },
   section3: {
     heading: 'Store the money',
@@ -25,7 +25,7 @@ export const content = {
       'Feel safe and secure paying for items through our built-in wallet platform',
     paragraph:
       'Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi contentiones per.',
-    screenContentUrl: '/media/iphone3.jpg',
+    screenContentUrl: '../public/iphone3.jpg',
   },
   section4: {
     heading: 'One planet',
@@ -33,7 +33,7 @@ export const content = {
       'Buy from local sellers on our marketplace to help protect the planet',
     paragraph:
       'Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi contentiones per.',
-    screenContentUrl: '/media/iphone4.jpg',
+    screenContentUrl: '../public/iphone4.jpg',
   },
   storySection: {
     heading: 'Our story',
@@ -41,7 +41,7 @@ export const content = {
       'In hendrerit nulla pharetra ante pulvinar egestas. Sed commodo massa id est iaculis, sit amet congue.',
     paragraph:
       'In hendrerit nulla pharetra ante pulvinar egestas. Sed commodo massa id est iaculis, sit amet congue enim placerat. Mauris leo arcu, mattis vitae sodales in, molestie eget quam.In hendrerit nulla pharetra ante pulvinar egestas. Sed commodo massa id est iaculis, sit amet congue enim placerat. Mauris leo arcu, mattis vitae sodales in, molestie eget quam.',
-    imageUrl: '/media/baby_image.jpg',
+    imageUrl: '../public/baby_image.jpg',
   },
   mailingSection: {
     heading: "Let's stay in touch",
