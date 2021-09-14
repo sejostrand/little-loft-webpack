@@ -46,7 +46,7 @@ export default function Home() {
       </head>
       <img
         className={styles.logo__img}
-        src='./assets/media/little_loft_logo.svg'
+        src='/public/little_loft_logo.svg'
       ></img>
       <main className={styles.home__main}>
         <HeadSection content={content.headSection} />
