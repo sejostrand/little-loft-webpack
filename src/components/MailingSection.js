@@ -24,7 +24,7 @@ const MailingSection = ({ content }) => {
           <object
             className={styles.animated__svg}
             type='image/svg+xml'
-            data='/wood_blocks_animated.svg'
+            data='./public/wood_blocks_animated.svg'
           ></object>
         )}
       </div>
