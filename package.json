@@ -5,8 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server",
-    "start": "node server.js",
+    "dev": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
   "author": "Sebastian Strand",
