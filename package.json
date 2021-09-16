@@ -5,8 +5,12 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "heroku-postbuild": "webpack -p"
+    "dev": "webpack-dev-server",
+    "start": "node server.js",
+    "build": "webpack --mode production"
+  },
+  "engines": {
+    "node": "14.15.4"
   },
   "author": "Sebastian Strand",
   "license": "MIT",
