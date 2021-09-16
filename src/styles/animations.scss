@@ -1,14 +1,5 @@
-@keyframes grow_in {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 @keyframes grow_first {
-  10% {
+  20% {
     transform: scale(0);
     opacity: 0;
   }
@@ -31,7 +22,7 @@
     transform: scale(0);
     opacity: 0;
   }
-  100% {
+  90% {
     transform: scale(1);
     opacity: 1;
   }

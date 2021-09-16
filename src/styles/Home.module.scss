@@ -23,30 +23,36 @@
   align-items: center;
 }
 
-.store_buttons__div {
+.store_buttons_a__div {
   display: flex;
   flex-flow: row nowrap;
-  transform: translateX(5%);
   margin-top: theme.$margin-sm;
+  transform: translateX(5%);
 
   @media (max-width: theme.$screen-md) {
     transform: translateX(0);
   }
 }
 
+.store_buttons_b__div {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: theme.$margin-sm;
+}
+
 @mixin store__button($url) {
   $scale: 0.9;
   $buttonHeight: $scale * 52px;
   $buttonWidth: $scale * 175.5px;
+
   background-size: $buttonWidth $buttonHeight;
   background-image: url($url);
-  border: none;
-  padding: 0;
-
   width: $buttonWidth;
   height: $buttonHeight;
   border-radius: 6px;
   cursor: pointer;
+  border: none;
+  padding: 0;
 
   @media (max-width: theme.$screen-sm) {
     background-size: 140px 41px;
@@ -64,11 +70,11 @@
 }
 
 .app_store__button {
-  @include store__button('../assets/media/app_store_button.svg');
+  @include store__button('../public/app_store_button.svg');
   animation: grow_first 800ms ease-in-out;
 }
 
 .play_store__button {
-  @include store__button('../assets/media/google_play_button.svg');
+  @include store__button('../public/google_play_button.svg');
   animation: grow_second 800ms ease-in-out;
 }
