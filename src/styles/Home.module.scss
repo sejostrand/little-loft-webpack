@@ -1,4 +1,5 @@
 @use './theme.scss';
+@import './animations.scss';
 
 .app {
   display: flex;
@@ -64,8 +65,10 @@
 
 .app_store__button {
   @include store__button('../assets/media/app_store_button.svg');
+  animation: grow_first 800ms ease-in-out;
 }
 
 .play_store__button {
   @include store__button('../assets/media/google_play_button.svg');
+  animation: grow_second 800ms ease-in-out;
 }
